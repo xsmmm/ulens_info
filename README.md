@@ -1,10 +1,10 @@
-#### usage
+### usage
 
 ```
 nohup python3 run.py &
 ```
 
-#### structure 
+### structure 
 
 ``` 
 .
@@ -23,14 +23,14 @@ nohup python3 run.py &
     ├── ...
 ```
 
-#### config
+### config
 
 - filter :
    - Whitelist = ['lens' , 'brighter' , 'ULENS' , 'rise']
    - Blacklist = ['SN' , 'QSO' , 'galaxy' , 'Blazer' , 'BL Lac']
    - selected = Whitelist AND (NOT Blacklist)
 
-#### explanation
+### description
 
 - Can :
    - -1         NOT checked
